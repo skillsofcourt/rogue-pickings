@@ -3,10 +3,12 @@ HTML {
 }
 
 body
+{
 font-size:1em;
-{max-width:1240px;
+max-width:77.5em;/*1240px*/
 margin:0 auto;
-font-family: Montserrat, Helvetica, Arial, sans-serif; }
+font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
 
 h1, h3, h4 {
 color: black;
@@ -16,28 +18,30 @@ text-transform: uppercase;
 h1{
     float: left;
     width:auto;
-    font-size:30px;
+    font-size:1.875em;/*30px*/
     text-align: left;
-    padding:15px, 0;
+    padding: 0.9375em, 0;/*15px, 0;*/
    }
 
-h3{font-size:18px;
+h3{font-size:1.125em; /*18px*/
     text-align:center;
-    padding:15px;}
+    padding:0.9375em;/*15px*/
+  }
 
-h4{font-size:12px;}
+h4{font-size:0.75em;
+  }/*12px*/
 
 .main-title h3{
 text-align: left;
-padding: 5px 0px;
+padding: 0.3125em 0px;/* 5px 0px*/
 text-transform: uppercase;
 color:#77a466;
 }
 
 p{
-padding: 0px 30px;
-line-height:21px;
-font-size: 14px;
+padding: 0px 1.875em; /*0px 30px*/
+line-height:1.3125em;/*21px*/
+font-size: 0.875em;/* 14px*/
 }
 
 /*** The widths are in percentage***/
@@ -45,8 +49,8 @@ font-size: 14px;
 
 header{
 width:100%;
-height:110px;
-border-bottom: 3px solid #77a466;
+height:6.875em;/*110px*/
+border-bottom: 0.1875em solid #77a466;/*3px solid #77a466;*/
 margin:0 auto;
 }
 
@@ -56,15 +60,15 @@ header span{
 
 header nav {
   float:right;
-  padding: 45px 0px;
+  padding: 2.8125em 0em;/*45px 0px*/
 }
 
 header nav a{
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 14px;
-  padding: 0 10px;
+  font-size: 0.875em;/*14px;*/
+  padding: 0em 0.625em;/* 0 10px*/
   color: #77a466
 }
 
@@ -81,8 +85,8 @@ header nav a{
     font-size: 1em;
     color: black;
     text-align: center;
-    padding: 15px 0;
-    border-bottom:3px solid #77a466;
+    padding: 0.9375em 0;/*15px 0*/
+    border-bottom:0.1875em solid #77a466; /*3px solid #77a466;*/
 }
 
 .main-image{
@@ -93,7 +97,7 @@ header nav a{
 
 .main-image img {
   width: 100%;
-  border-bottom: 3px solid #77a466;
+  border-bottom: 0.1875em solid #77a466; /*3px solid #77a466;*/
 }
 
 .main-title{
@@ -103,21 +107,22 @@ header nav a{
 }
 
 .main-title p{
-  padding: 0px;
-  line-height: 25px;
-  font-size: 16px;
+  padding: 0em; /*0px*/
+  line-height: 1.5625em; /*25px*/
+  font-size: 1em; /*** font-size =16px**/
 }
 
 main-title p {
-  padding: 0px;
-  line-height: 25px;
-  font-size: 16px;
+  padding: 0em; /*0px*/
+  line-height: 1.5625em;/*25px*/
+  font-size: 1em; /*** font-size =16px**/
 }
 /********************bottom-section*********/
 .bottom-section {
   width: 100%;
   margin: 0 auto;
   clear:both;
+  font-size: 1.875em;/*30px*/
 }
 
 .section-one,
@@ -126,58 +131,63 @@ main-title p {
   width:33%;
   height: auto;
   float:left;
-  border-top: 1px solid #eee;
+  border-top: 0.0625em solid #eee;/*1px solid #eee*/
+  font-size: 1em;
 }
 
 .section-one,
 .section-two{
-  border-right: 1px solid #eee
+  border-right: 0.0625em solid #eee; /*1px solid #eee*/
 }
 
 .section-one h4 {
-  padding: 10px 0px;
+  padding: 0.625em 0em; /*10px 0px*/
 }
 
 .section-two h4,
 .section-three h4 {
-  padding: 10px 30px;
+  padding: 0.625em 1.875em; /* 10px 30px;*/
 }
 
 .menu {
   list-style: none;
-  padding: 0px;
+  padding: 0em ;/*0px*/
 }
 
 .menu li {
-  padding: 10px 0px;
+  padding: 0.625em 0em; /*10px 0px*/
   color: #77a466;
 }
 
 .reviews {
   color: #333;
-  line-height: 21px;
-  font-size: 16px;
+  line-height: 1.3125em; /* 21px*/
+  font-size: 1em; /*** font-size =16px**/
 
 }
 
 .address{
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1em; /*** font-size =16px**/
+  line-height: 1.5em; /*font-size=24px*/
 }
 /**********Footer****/
 /***The widths are in a percentage**/
 .footer{
   width:100%;
-  height: 50px;
-  border-top: 3px solid #eee;
+  height: 3.125em; /*50px*/
+  border-top: 0.1875em solid #eee; /*3px*/
   margin: 0 auto;
   clear: both;
   text-align: center;
+  font-size: 1.875em; /*inserted from template*/
+}
+.footer h4 {
+font-size: 1em;  /*** font-size =16px**/
 }
 
 .footer span {
   font-family: "wisdom script", script;
   text-transform: lowercase;
   color:#771466;
-  font-size: 14px;
+  font-size: 0.875em; /*font-size= 14px*/
 }
