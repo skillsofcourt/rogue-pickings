@@ -1,153 +1,113 @@
+/*css for mobile styles*/
+@font-face {
+	font-family: Wisdom Script;
+	src: url('fonts/Wisdom Script.otf') format('opentype');
+}
+
 HTML {
    font-size:16px;
 }
 
+
 body
 {
 font-size:1em;
-max-width:77.5em;/*1240px*/
+max-width:37.5em;/*600px*/
 margin:0 auto;
 font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 
-h1, h3, h4 {
-color: black;
-text-transform: uppercase;
-}
-
-h1{
-    float: left;
-    width:auto;
-    font-size:1.875em;/*30px*/
-    text-align: left;
-    padding: 0.9375em, 0;/*15px, 0;*/
-   }
-
-h3{font-size:1.125em; /*18px*/
-    text-align:center;
-    padding:0.9375em;/*15px*/
-  }
-
-h4{font-size:0.75em;
-  }/*12px*/
-
-.main-title h3{
-text-align: left;
-padding: 0.3125em 0px;/* 5px 0px*/
-text-transform: uppercase;
-color:#77a466;
-}
-
-p{
-padding: 0px 1.875em; /*0px 30px*/
-line-height:1.3125em;/*21px*/
-font-size: 0.875em;/* 14px*/
-}
+/******Logo & Navigation*****/
 
 /*** The widths are in percentage***/
 
-
-header{
+.logo-nav{
 width:100%;
-height:6.875em;/*110px*/
-border-bottom: 0.1875em solid #77a466;/*3px solid #77a466;*/
-margin:0 auto;
+font-size: 1.875em;
+text-transform: uppercase;
+
 }
 
-header span{
+.logo-nav h1 {
+  font-size: 1em;
+	padding-bottom: .5em;
+	border-bottom: .1em solid #77a466;
+}
+
+.logo-nav span{
   color: #77a466
 }
 
-header nav {
-  float:right;
-  padding: 2.8125em 0em;/*45px 0px*/
+.logo-nav nav {
+  float: right;
+  padding: 30px 0px;
 }
 
-header nav a{
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 0.875em;/*14px;*/
-  padding: 0em 0.625em;/* 0 10px*/
-  color: #77a466
+.logo-nav nav a {
+ padding: 6em;
+ font-size: .467em;
+ font-weight: bold;
+ text-transform: uppercase;
+ color: #77a466;
+ text-decoration: none;
 }
+
 
 /*** The widths are in a percentage"%"****/
 /**************top-section****/
+
 .top-section {
-    width: 90%;
-    height: auto;
-    margin: 0 auto;
-    font-size: 1.875em;
+  width: 100%;
+  height: auto;
+  font-size: 1.125e
+}
+
+
+.top-section img{
+  width: 100%;
+  margin-top: 1em;
+  border-top: .167em solid #77a466;
+  border-bottom: .167em solid #77a466;/
 }
 
 .top-section h3 {
     font-size: 1em;
-    color: black;
-    text-align: center;
-    padding: 0.9375em 0;/*15px 0*/
-    border-bottom:0.1875em solid #77a466; /*3px solid #77a466;*/
-}
+    text-align: left;
+		padding: .833em
+		text-transform: uppercase;
+		color: #77a466;
+	}
 
-.main-image{
-  width: 100%;
-  height:auto;
-  float: left;
-}
-
-.main-image img {
-  width: 100%;
-  border-bottom: 0.1875em solid #77a466; /*3px solid #77a466;*/
-}
-
-.main-title{
-  width: 100%;
-  height: auto;
-  float: left;
-}
-
-.main-title p{
+.top-section p{
   padding: 0em; /*0px*/
   line-height: 1.5625em; /*25px*/
   font-size: 1em; /*** font-size =16px**/
 }
-
-main-title p {
-  padding: 0em; /*0px*/
-  line-height: 1.5625em;/*25px*/
-  font-size: 1em; /*** font-size =16px**/
-}
 /********************bottom-section*********/
+
 .bottom-section {
-  width: 100%;
-  margin: 0 auto;
-  clear:both;
-  font-size: 1.875em;/*30px*/
+	width: 100%;
+  font-size: .75em;
+	text-align: center;
+}
+
+.bottom-section h4 {
+  font-size: 1em;
+	text-align: center;
 }
 
 .section-one,
 .section-two,
 .section-three {
-  width:33%;
-  height: auto;
-  float:left;
   border-top: 0.0625em solid #eee;/*1px solid #eee*/
-  font-size: 1em;
+
 }
 
-.section-one,
-.section-two{
-  border-right: 0.0625em solid #eee; /*1px solid #eee*/
+.section-one {
+	font-size: 1em;
+	text-align: center;
 }
 
-.section-one h4 {
-  padding: 0.625em 0em; /*10px 0px*/
-}
-
-.section-two h4,
-.section-three h4 {
-  padding: 0.625em 1.875em; /* 10px 30px;*/
-}
 
 .menu {
   list-style: none;
@@ -155,10 +115,20 @@ main-title p {
 }
 
 .menu li {
-  padding: 0.625em 0em; /*10px 0px*/
-  color: #77a466;
+  font-size: 1.1em;
+	line-height: 2em;
+	padding-right: 4.5em;
+	color: #77a466;
 }
 
+.section-two p {
+	font-size: 1em;
+	color: #333;
+}
+
+.section-three p {
+  font-size: 1em;
+}
 .reviews {
   color: #333;
   line-height: 1.3125em; /* 21px*/
@@ -174,13 +144,11 @@ main-title p {
 /***The widths are in a percentage**/
 .footer{
   width:100%;
-  height: 3.125em; /*50px*/
   border-top: 0.1875em solid #eee; /*3px*/
-  margin: 0 auto;
-  clear: both;
   text-align: center;
-  font-size: 1.875em; /*inserted from template*/
+  font-size: .75em; /*inserted from template*/
 }
+
 .footer h4 {
 font-size: 1em;  /*** font-size =16px**/
 }
@@ -189,5 +157,323 @@ font-size: 1em;  /*** font-size =16px**/
   font-family: "wisdom script", script;
   text-transform: lowercase;
   color:#771466;
-  font-size: 0.875em; /*font-size= 14px*/
+  font-size: 1.167em;
+}
+
+  /*********** Tablet styles here ****************/
+@media all and (min-width:768px) {
+
+body {
+      max-width: 1200px;
+      margin: 0 auto;
+      font-family: Montserrat, Helvetica, Arial, sans-serif;
+      overflow: auto;
+    }
+h1,
+h3,
+h4 {
+      color: black;
+      text-transform: uppercase;
+    }
+
+h1 {
+      font-size: 30px;
+      text-align: left;
+      width: auto;
+      float: left;
+      padding: 15px 0;
+    }
+
+h3 {
+      font-size: 18px;
+      text-align: center;
+      padding: 15px;
+    }
+
+h4 {
+      font-size: 12px;
+    }
+
+p {
+      padding: 0px 30px;
+      line-height: 21px;
+      font-size: 14px;
+    }
+/******Logo & Navigation*****/
+    /*The widths are in a percentage!*/
+.logo-nav {
+      width: 100%;
+      height: 110px;
+      margin: 0 auto;
+    }
+
+.logo-nav nav {
+      float: right;
+      padding: 30px 0px;
+    }
+
+.logo-nav h1 {
+      border-bottom: none;
+    }
+
+.logo-nav span {
+      color: #77a466;
+    }
+
+.logo-nav nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 14px;
+      padding: 0 10px;
+      color:#77a466;
+      text-align: center;
+    }
+/**************top-section******/
+.top-section,
+.bottom-section {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+}
+
+.top-section {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.top-section img {
+      width: 100%;
+      border-bottom: 3px solid #77a466;
+    }
+
+.top-section h3 {
+      text-align:left;
+      padding: 5px 0px;
+      text-transform: uppercase;
+      color:#77a466;
+    }
+
+.top-section p {
+      padding: 0px;
+      line-height: 25px;
+      font-size: 16px;
+    }
+/**********bottom-section*********/
+
+.section-one,
+.section-two,
+.section-three {
+      width: 33%;
+      height: auto;
+      float: left;
+      border-top: 1px solid #eee;
+    }
+
+.section-one,
+.section-two {
+    border-right: 1px solid #eee;
+    }
+
+.section-one h4 {
+    padding: 10px 0px;
+    text-align: left;
+    }
+
+.section-two h4,
+.section-three h4 {
+    text-align: left;
+    padding: 10px 30px;
+    }
+
+.section-one {
+    text-align: left;
+    }
+
+.menu {
+    list-style: none;
+    padding: 0px;
+    }
+
+.menu li {
+    font-size: 16px;
+    padding: 5px 0;
+    color:#77a466;
+    }
+
+.section-two p {
+    color: #333;
+    line-height: 21px;
+    font-size: 16px;
+    }
+
+.section-three p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    }
+
+.footer {
+    clear: both;
+    }
+}
+
+/*********************Desktop styles here ************/
+@media all and (min-width: 940px)  {
+body {
+    max-width: 1200px;
+		margin: 0 auto;
+		font-family: Montserrat, Helvetica, Arial, sans-serif;
+    overflow: auto;
+	}
+
+h1,
+h3,
+h4 {
+		color: black;
+		text-transform: uppercase;
+	}
+
+h1 {
+		font-size: 30px;
+		text-align: left;
+		width: auto;
+		float: left;
+		padding: 15px 0;
+	}
+
+h3 {
+		font-size: 18px;
+		text-align: center;
+		padding: 15px;
+	}
+
+h4 {
+		font-size: 12px;
+	}
+
+p {
+		padding: 0px 30px;
+		line-height: 21px;
+		font-size: 14px;
+	}
+/******Logo & Navigation*****/
+	/*The widths are in a percentage!*/
+.logo-nav {
+		width: 100%;
+		height: 110px;
+		margin: 0 auto;
+	}
+
+.logo-nav nav {
+    float: right;
+    padding: 30px 0px;
+  }
+
+.logo-nav h1 {
+		border-bottom: none;
+	}
+
+.logo-nav span {
+		color: #77a466;
+	}
+
+.logo-nav nav a {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 14px;
+		padding: 0 10px;
+		color:#77a466;
+    text-align: center;
+	}
+/************top-section***********/
+.top-section
+.bottom-section
+ {
+		width: 100%;
+		margin: 0 auto;
+		clear: both;
+	}
+
+.top-section img {
+		width: 100%;
+		border-bottom: 3px solid #77a466;
+	}
+
+.top-section {
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+.top-section h3 {
+		text-align: left;
+		padding: 5px 0px;
+		text-transform: uppercase;
+		color: #77a466;
+	}
+
+.top-section p {
+		padding: 0px;
+		line-height: 25px;
+		font-size: 16px;
+	}
+/*********bottom-section******/
+
+.section-one,
+.section-two,
+.section-three {
+		width: 33%;
+		height: auto;
+		float: left;
+		border-top: 1px solid #eee;
+}
+
+.section-one,
+.section-two {
+	border-right: 1px solid #eee;
+}
+
+.section-one h4 {
+	padding: 10px 0px;
+	text-align: left;
+}
+
+.section-two h4,
+.section-three h4 {
+	text-align: left;
+	padding: 10px 30px;
+}
+
+.section-one {
+	text-align: left;
+}
+
+.menu {
+	list-style: none;
+	padding: 0px;
+}
+
+.menu li {
+	font-size: 16px;
+	padding: 5px 0;
+	color:#77a466;
+}
+
+.section-two p {
+	color: #333;
+	line-height: 21px;
+	font-size: 16px;
+}
+
+.section-three p {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: left;
+}
+
+.footer {
+	clear: both;
+}
 }
