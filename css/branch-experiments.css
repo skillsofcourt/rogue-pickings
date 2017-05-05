@@ -40,7 +40,7 @@ text-transform: uppercase;
 
 .logo-nav nav {
   float: right;
-  padding: 30px 0px;
+  padding: 1.875em;/*30px 0px; */
 }
 
 .logo-nav nav a {
@@ -59,7 +59,7 @@ text-transform: uppercase;
 .top-section {
   width: 100%;
   height: auto;
-  font-size: 1.125e
+  font-size: 1.125em;
 }
 
 
@@ -73,7 +73,7 @@ text-transform: uppercase;
 .top-section h3 {
     font-size: 1em;
     text-align: left;
-		padding: .833em
+		padding: .833em;
 		text-transform: uppercase;
 		color: #77a466;
 	}
@@ -164,7 +164,7 @@ font-size: 1em;  /*** font-size =16px**/
 @media all and (min-width:768px) {
 
 body {
-      max-width: 1200px;
+      max-width: 75em; /*1200px*/
       margin: 0 auto;
       font-family: Montserrat, Helvetica, Arial, sans-serif;
       overflow: auto;
@@ -177,39 +177,39 @@ h4 {
     }
 
 h1 {
-      font-size: 30px;
+      font-size: 1.875em; /*30px*/
       text-align: left;
       width: auto;
       float: left;
-      padding: 15px 0;
+      padding: 0.9375em 0; /*15px 0;*/
     }
 
 h3 {
-      font-size: 18px;
+      font-size: 1.125em;/*18px;*/
       text-align: center;
-      padding: 15px;
+      padding: 0.9375em 0; /*15px;0*/
     }
 
 h4 {
-      font-size: 12px;
+      font-size: 0.75em; /*12px;*/
     }
 
 p {
-      padding: 0px 30px;
-      line-height: 21px;
-      font-size: 14px;
+      padding: 0em 1.875em; /*0px 30px;*/
+      line-height: 1.3125em; /*21px;*/
+      font-size: 0.875em; /*14px;*/
     }
 /******Logo & Navigation*****/
     /*The widths are in a percentage!*/
 .logo-nav {
       width: 100%;
-      height: 110px;
+      height: 6.875em; /*110px*/
       margin: 0 auto;
     }
 
 .logo-nav nav {
       float: right;
-      padding: 30px 0px;
+      padding: 1.875em 0px; /*30px 0px*/
     }
 
 .logo-nav h1 {
@@ -224,8 +224,8 @@ p {
       text-decoration: none;
       text-transform: uppercase;
       font-weight: bold;
-      font-size: 14px;
-      padding: 0 10px;
+      font-size: 0.875em; /*14px;*/
+      padding: 0 0.625em; /* 0 10px;*/
       color:#77a466;
       text-align: center;
     }
@@ -244,19 +244,19 @@ p {
 }
 .top-section img {
       width: 100%;
-      border-bottom: 3px solid #77a466;
+      border-bottom: 0.1875em solid #77a466; /*3px solid #77a466;*/
     }
 
 .top-section h3 {
       text-align:left;
-      padding: 5px 0px;
+      padding: 0.3125em 0em; /*5px 0px;*/
       text-transform: uppercase;
       color:#77a466;
     }
 
 .top-section p {
       padding: 0px;
-      line-height: 25px;
+      line-height: 1.5625em; /*25px;*/
       font-size: 16px;
     }
 /**********bottom-section*********/
@@ -321,7 +321,7 @@ p {
 /*********************Desktop styles here ************/
 @media all and (min-width: 940px)  {
 body {
-    max-width: 1200px;
+    max-width: 75em;/*1200px*/
 		margin: 0 auto;
 		font-family: Montserrat, Helvetica, Arial, sans-serif;
     overflow: auto;
@@ -361,7 +361,7 @@ p {
 	/*The widths are in a percentage!*/
 .logo-nav {
 		width: 100%;
-		height: 110px;
+		height: 6.875em; /*110px;*/
 		margin: 0 auto;
 	}
 
